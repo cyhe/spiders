@@ -1,0 +1,13 @@
+{
+  "_index": "hhly",
+  "_type": "user",
+  "_id": "3",
+  "_version": 1,
+  "result": "created",
+  "_shards": {
+    "total": 2,
+    "successful": 1,
+    "failed": 0
+  },
+  "created": true
+}

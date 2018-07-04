@@ -1,0 +1,100 @@
+{
+  "took": 13,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 4,
+    "max_score": 2.047015,
+    "hits": [
+      {
+        "_index": "dating_profile",
+        "_type": "zhenai",
+        "_id": "AWRZ8LxQwPR0EDlT16wR",
+        "_score": 2.047015,
+        "_source": {
+          "Name": "阿伦",
+          "Gender": "男",
+          "Age": 30,
+          "Height": 170,
+          "Weight": 0,
+          "Income": "3001-5000元",
+          "Marriage": "离异",
+          "Education": "中专",
+          "Occupation": "客服协调",
+          "Hokou": "上海浦东新区",
+          "Xinzuo": "牡羊座",
+          "House": "租房",
+          "Car": "未购车"
+        }
+      },
+      {
+        "_index": "dating_profile",
+        "_type": "zhenai",
+        "_id": "AWRZ8MEuwPR0EDlT16yT",
+        "_score": 1.0275354,
+        "_source": {
+          "Name": "让心情飞扬",
+          "Gender": "男",
+          "Age": 38,
+          "Height": 175,
+          "Weight": 0,
+          "Income": "8001-12000元",
+          "Marriage": "离异",
+          "Education": "大专",
+          "Occupation": "--",
+          "Hokou": "上海浦东新区",
+          "Xinzuo": "金牛座",
+          "House": "--",
+          "Car": "未购车"
+        }
+      },
+      {
+        "_index": "dating_profile",
+        "_type": "zhenai",
+        "_id": "AWRZ8MkVwPR0EDlT162R",
+        "_score": 0.90098166,
+        "_source": {
+          "Name": "陆拾陆",
+          "Gender": "男",
+          "Age": 31,
+          "Height": 189,
+          "Weight": 82,
+          "Income": "20001-50000元",
+          "Marriage": "未婚",
+          "Education": "大学本科",
+          "Occupation": "银行",
+          "Hokou": "上海长宁区",
+          "Xinzuo": "牡羊座",
+          "House": "打算婚后购房",
+          "Car": "未购车"
+        }
+      },
+      {
+        "_index": "dating_profile",
+        "_type": "zhenai",
+        "_id": "AWRZ8MsFwPR0EDlT163N",
+        "_score": 0.7923454,
+        "_source": {
+          "Name": "真心找对象",
+          "Gender": "男",
+          "Age": 39,
+          "Height": 173,
+          "Weight": 65,
+          "Income": "5001-8000元",
+          "Marriage": "离异",
+          "Education": "高中及以下",
+          "Occupation": "通信技术",
+          "Hokou": "安徽阜阳",
+          "Xinzuo": "处女座",
+          "House": "打算婚后购房",
+          "Car": "已购车"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "took": 8,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 5,
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "hhly",
+        "_type": "user",
+        "_id": "2",
+        "_score": 1.0,
+        "_source": {
+          "name": "lisi",
+          "sex": "男"
+        }
+      },
+      {
+        "_index": "hhly",
+        "_type": "user",
+        "_id": "4",
+        "_score": 1.0,
+        "_source": {
+          "name": "张明",
+          "sex": "男",
+          "url": "https://www.baidu.com"
+        }
+      },
+      {
+        "_index": "hhly",
+        "_type": "user",
+        "_id": "1",
+        "_score": 1.0,
+        "_source": {
+          "name": "张明",
+          "sex": "男",
+          "url": "https://www.baidu.com",
+          "age": 25
+        }
+      },
+      {
+        "_index": "hhly",
+        "_type": "user",
+        "_id": "AWRY9vfJwPR0EDlT16su",
+        "_score": 1.0,
+        "_source": {
+          "name": "wangwu",
+          "sex": "男",
+          "url": "https://www.baidu.com"
+        }
+      },
+      {
+        "_index": "hhly",
+        "_type": "user",
+        "_id": "3",
+        "_score": 1.0,
+        "_source": {
+          "name": "wangwu",
+          "sex": "男",
+          "url": "https://www.baidu.com"
+        }
+      }
+    ]
+  }
+}

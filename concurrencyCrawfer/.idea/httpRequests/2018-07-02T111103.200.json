@@ -1,0 +1,13 @@
+{
+  "_index": "hhly",
+  "_type": "user",
+  "_id": "1",
+  "_version": 2,
+  "found": true,
+  "_source": {
+    "name": "张明",
+    "sex": "男",
+    "url": "https://www.baidu.com",
+    "age": 25
+  }
+}

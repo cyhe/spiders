@@ -1,0 +1,13 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "illegal_argument_exception",
+        "reason": "request [/hhly/user/_search] contains unrecognized parameter: [pre]"
+      }
+    ],
+    "type": "illegal_argument_exception",
+    "reason": "request [/hhly/user/_search] contains unrecognized parameter: [pre]"
+  },
+  "status": 400
+}

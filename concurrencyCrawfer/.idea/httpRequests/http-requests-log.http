@@ -1,0 +1,450 @@
+GET http://localhost:9200/dating_profile/_search?pretty=&q=男 已购车 已购房 Payload.Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-03T110021.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/_search?pretty=&q=男 已购车 已购房 Payload.Age(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-03T105948.200.json
+
+###
+
+GET http://localhost:9200
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-03T105745.200.json
+
+###
+
+GET http://localhost:9200/dating_test/_search
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-03T105607.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/_search?pretty=&size=100&q=男 已购房 已购车
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T064202.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063706.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063640.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063312.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063256.200.json
+
+###
+
+GET http://localhost:9200/dating_test/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063251.200.json
+
+###
+
+GET http://localhost:9200/dating_test/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063126.200.json
+
+###
+
+GET http://localhost:9200/dating_test/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063033.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T063010.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T062933.200.json
+
+###
+
+GET http://localhost:9200/dating_test/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T062929.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T061512.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T055343.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 Age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T040105.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 age:(<30)
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T040039.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 age<30
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T040002.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 已购房 已购车 age<30
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035919.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 已购房 已购车
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035903.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035828.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 已购房 已购车
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035759.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100&q=男 已购房 已购车
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035720.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=&size=100
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035522.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T035426.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T031922.200.json
+
+###
+
+GET http://localhost:9200/dating_profile/zhenai/_search?pretty=
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T030727.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_mapping?pretty=
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T111253.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search?pretty=
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T111113.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/1?pretty=
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T111103.200.json
+
+###
+
+POST http://localhost:9200/hhly/user/1
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com",   "age":25 }
+
+<> 2018-07-02T111048.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com" }
+
+<> 2018-07-02T110958.200.json
+
+###
+
+POST http://localhost:9200/hhly/user/_search
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com" }
+
+<> 2018-07-02T110951.400.json
+
+###
+
+POST http://localhost:9200/hhly/user/4
+Content-Type: application/json
+
+{   "name": "张明",   "sex": "男",   "url": "https://www.baidu.com" }
+
+<> 2018-07-02T110945.201.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110900.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/3
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110855.200.json
+
+###
+
+POST http://localhost:9200/hhly/user/3
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110850.200.json
+
+###
+
+POST http://localhost:9200/hhly/user/
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110848.201.json
+
+###
+
+POST http://localhost:9200/hhly/user/3
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110833.200.json
+
+###
+
+POST http://localhost:9200/hhly/user/3
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110817.201.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110756.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_serach
+Content-Type: application/json
+
+{   "name": "wangwu",   "sex": "男",   "url":"https://www.baidu.com" }
+
+<> 2018-07-02T110750.404.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search?pretty=&q=zhangsan
+Content-Type: application/json
+
+{   "name":"lisi",   "sex":"男" }
+
+<> 2018-07-02T110301.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search?pretty=&q=zhangsan
+Content-Type: application/json
+
+{   "name":"lisi",   "sex":"男" }
+
+<> 2018-07-02T110232.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search?pretty=
+Content-Type: application/json
+
+{   "name":"lisi",   "sex":"男" }
+
+<> 2018-07-02T110215.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search
+Content-Type: application/json
+
+{   "name":"lisi",   "sex":"男" }
+
+<> 2018-07-02T110143.200.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search?pre=
+Content-Type: application/json
+
+{   "name":"lisi",   "sex":"男" }
+
+<> 2018-07-02T110134.400.json
+
+###
+
+GET http://localhost:9200/hhly/user/_search?pre=
+Content-Type: application/json
+
+{   "name":"lisi",   "sex":"男" }
+
+<> 2018-07-02T110130.400.json
+
+###
+
