@@ -1,36 +1,36 @@
 # spider
 #### 爬虫的总体结构
 
-<img src="./images/05.png"  height="417" width="782">
+<div align=center><img src="./images/05.png"  height="417" width="782"></div>
 
 #### 爬虫的总体算法
 
 
 
-<img src="./images/01.png"  height="417" width="613">
+<div align=center><img src="./images/01.png"  height="417" width="613"></div>
 
 #### 单任务版爬虫结构
 解析器Paeser
 输入Utf-8编码文本
 输出Request{URL,对应Parser}列表,Item列表
 
-<img src="./images/02.png"  height="407" width="512">
+<div align=center><img src="./images/02.png"  height="407" width="512"></div>
 
 
 #### 并发架构的演变
 * Scheduler实现1:所有worker公用一个输入
 
-<img src="./images/s01.png"  height="193" width="529">
+<div align=center><img src="./images/s01.png"  height="193" width="529"></div>
 * Scheduler实现2:并发分发request
 
-<img src="./images/s02.png"  height="262" width="525">
+<div align=center><img src="./images/s02.png"  height="262" width="525"></div>
 * Scheduler实现3:request队列和worker队列
 
-<img src="./images/s03.png"  height="303" width="544">
+<div align=center><img src="./images/s03.png"  height="303" width="544"></div>
 
 * 并发版爬虫架构
 
-<img src="./images/03.png"  height="327" width="574">
+<div align=center><img src="./images/03.png"  height="327" width="574"></div>
 
 
 
@@ -52,7 +52,8 @@
 #### 分布式架构
 并发节点拆分
 
-<img src="./images/04.png"  height="457" width="642">
+<div align=center><img src="./images/04.png"  height="457" width="642"></div>
+
 #### 使用说明
 * 安装依赖:
 
@@ -101,6 +102,8 @@ cd /Users/esirnus/go/src/spiders/distributedCrawfer/distributed
 go run main.go --help  (查看返回的格式要求)
 go run main.go -itemsaver_host=":1234" -worker_hosts=":9000,:9001,:9002"
 ```
-运行结果
+#### 运行结果
 
-<img src="./images/runresult.png"  height="727" width="1144">
+<div align=center>![运行结果](./images/runresult.png)
+
+
