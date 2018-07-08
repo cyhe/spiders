@@ -1,30 +1,36 @@
 # spider
 #### 爬虫的总体结构
 
-![爬虫的总体算法](./images/05.png)
+<img src="./images/05.png"  height="417" width="782">
 
 #### 爬虫的总体算法
 
 
-![爬虫的总体算法](./images/01.png)
+
+<img src="./images/01.png"  height="417" width="613">
 
 #### 单任务版爬虫结构
 解析器Paeser
 输入Utf-8编码文本
 输出Request{URL,对应Parser}列表,Item列表
-![单任务版本爬虫结构](./images/02.png)
+
+<img src="./images/02.png"  height="407" width="512">
 
 
 #### 并发架构的演变
 * Scheduler实现1:所有worker公用一个输入
-![Scheduler1](./images/s01.png)
+
+<img src="./images/s01.png"  height="193" width="529">
 * Scheduler实现2:并发分发request
-![Scheduler2](./images/s02.png)
+
+<img src="./images/s02.png"  height="262" width="525">
 * Scheduler实现3:request队列和worker队列
-![Scheduler3](./images/s03.png)
+
+<img src="./images/s03.png"  height="303" width="544">
 
 * 并发版爬虫架构
-![并发版本爬虫结构](./images/03.png)
+
+<img src="./images/03.png"  height="327" width="574">
 
 
 
@@ -45,7 +51,8 @@
 
 #### 分布式架构
 并发节点拆分
-![分布式版爬虫结构](./images/04.png)
+
+<img src="./images/04.png"  height="457" width="642">
 #### 使用说明
 * 安装依赖:
 
@@ -95,4 +102,5 @@ go run main.go --help  (查看返回的格式要求)
 go run main.go -itemsaver_host=":1234" -worker_hosts=":9000,:9001,:9002"
 ```
 运行结果
-![并发版本爬虫结构](./images/runresult.png)
+
+<img src="./images/runresult.png"  height="727" width="1144">
