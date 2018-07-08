@@ -5,8 +5,6 @@
 
 #### 爬虫的总体算法
 
-
-
 <div align=center><img src="./images/01.png"  height="417" width="613"></div>
 
 #### 单任务版爬虫结构
@@ -31,10 +29,6 @@
 * 并发版爬虫架构
 
 <div align=center><img src="./images/03.png"  height="327" width="574"></div>
-
-
-
-
 
 #### 并发版爬虫目前存在的问题:
 - 限流问题
@@ -80,7 +74,7 @@ docker logs  447182b34225(CONTAINER ID) 查看日志
 * 启动存储服务
 
 ``` shell
-cd /Users/esirnus/go/src/spiders/distributedCrawfer/distributed/persist/server 
+cd /spiders/distributedCrawfer/distributed/persist/server 
 go run iteamsaver.go --help (查看返回的格式要求)
 go run iteamsaver.go -port 1234
 ```
@@ -88,7 +82,7 @@ go run iteamsaver.go -port 1234
 * 启动多个worker
 
 ``` shell
-cd /Users/esirnus/go/src/spiders/distributedCrawfer/distributed/worker/server 
+cd /spiders/distributedCrawfer/distributed/worker/server 
 go run worker.go --help (查看返回的格式要求)
 go run worker - port 900
 go run worker - port 9001
@@ -98,12 +92,12 @@ go run worker - port 9002
 * 启动调度器
 
 ```
-cd /Users/esirnus/go/src/spiders/distributedCrawfer/distributed
+cd /spiders/distributedCrawfer/distributed
 go run main.go --help  (查看返回的格式要求)
 go run main.go -itemsaver_host=":1234" -worker_hosts=":9000,:9001,:9002"
 ```
 #### 运行结果
 
-<div align=center>![运行结果](./images/runresult.png)
+![运行结果](./images/runresult.png)
 
 
